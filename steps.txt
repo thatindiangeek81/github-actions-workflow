@@ -1,0 +1,13 @@
+Practical 5 - run these in this folder (needs Go + a GitHub repo):
+
+go run main.go          -> GitHub Actions Practical
+go test ./...           -> ok
+git init
+git add .
+git commit -m "Initial Go project"
+git remote add origin <your repo url>
+git branch -M main
+git push -u origin main
+
+Failure demo: change expected := 8 to 10 in math_test.go, commit "Test workflow failure", push,
+then change it back, commit "Fix test", push.
